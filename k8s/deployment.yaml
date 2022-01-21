@@ -88,5 +88,5 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 5000
-    nodePort: 30000
+    nodePort: 30000     # o nodePorte pode ser removida quando o type é LoadBalancer
   type: LoadBalancer
